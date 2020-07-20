@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/facebook.png" type="image/png">
+    <link rel="stylesheet" href="./index.css">
+    <title>Facebook - log in or sign up</title>
+</head>
+<body>    
+    <!-- Header -->
+    <div class="home-header">
+        <div class="home-logo">
+            <h1>facebook</h1>
+        </div>
+        <div class="home-login-box">
+            <div class="login-email d-column">
+                <label for="email">Email or phone</label>
+                <input type="text"class="for-ol" name="email">
+            </div>
+            <div class="login-password d-column">
+                <label for="password">Password</label>
+                <input type="password" name="password" class="for-ol">
+                <a href="" class="frgt-pass">Forgotten account?</a>
+            </div>
+                <input type="button" value="Log In" class='login-btn'>
+        </div>
+    </div>
+
+    <!-- Home Main -->
+    <div class="home-main">
+        <div class="home-main-left">
+            <h3 class="move-left">Facebook helps you connect and share with<br/> the people in your life.</h3>
+            <div class="home-main-img move-left">
+                <img src="../img/home-img.png" alt="art">
+            </div>
+        </div>
+        <form class="home-main-right">
+            <div class="main-heading">
+                <span class="primary-heading d-block">Create an account</span>
+                <span class="sub-heading d-block">It's quick and easy.</span>
+            </div>
+            <div class="reg-name">
+                <input type="text" placeholder="First name" class="input-typo">
+                <input type="text" class="input-typo surname" placeholder="Surname">
+            </div>
+            <div class="reg-mobile">
+                <input type="text" class="input-typo input-w" placeholder="Mobile number or email address">
+            </div>
+            <div class="reg-password">
+                <input type="text" class="input-typo input-w" placeholder="New password">
+            </div>
+            <div class="reg-dob">
+                <label for="dob" class="label-text">Birthday</label>
+                <input type="date" name="dob" id="dob">
+            </div>
+            <div class="reg-gender">
+                <label for="gender" class="label-text">Gender</label>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male" class="for-p">Male</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female" class="for-p">Female</label>
+                <input type="radio" name="gender" id="other" value="other">
+                <label for="other" class="for-p">Other</label>
+            </div>
+            <div class="policy-desc">
+                By clicking Sign Up, you agree to our <a class="policy-link" href="https://www.facebook.com/legal/terms/updateTerms">Terms, Data Policy</a> and <a class="policy-link" href="https://www.facebook.com/policies/cookies/">Cookie Policy</a>. You may receive SMS notifications from us and can opt out at any time.
+            </div>
+            <input type="submit" class="signup-btn" value="Sign Up">
+        </form>
+    </div>
+
+</body>
+</html>
